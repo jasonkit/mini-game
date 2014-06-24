@@ -1,0 +1,13 @@
+body {
+	background: #222;
+}
+
+#tetris-canvas {
+	width: 720px;
+	height: 480px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -360px;
+	margin-top:-240px;
+}

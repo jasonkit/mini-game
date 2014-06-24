@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DrawRoutine.draw	draw_routine.js	/^DrawRoutine.draw = function () {$/;"	f
+DrawRoutine.draw_block	draw_routine.js	/^DrawRoutine.draw_block = function(x,y,c)$/;"	f
+DrawRoutine.draw_block_internal	draw_routine.js	/^DrawRoutine.draw_block_internal = function (x,y,c)$/;"	f
+DrawRoutine.draw_next_shape	draw_routine.js	/^DrawRoutine.draw_next_shape = function () $/;"	f
+DrawRoutine.draw_next_shape.offset.x	draw_routine.js	/^	var offset = {x:460, y:60};	$/;"	p
+DrawRoutine.draw_next_shape.offset.y	draw_routine.js	/^	var offset = {x:460, y:60};	$/;"	p
+DrawRoutine.draw_overlay_text	draw_routine.js	/^DrawRoutine.draw_overlay_text = function (text)$/;"	f
+DrawRoutine.draw_overlay_text.offset.x	draw_routine.js	/^	var offset = {x:360, y:180};$/;"	p
+DrawRoutine.draw_overlay_text.offset.y	draw_routine.js	/^	var offset = {x:360, y:180};$/;"	p
+DrawRoutine.draw_round_corner_box	draw_routine.js	/^DrawRoutine.draw_round_corner_box = function(x, y, width, height, radius)$/;"	f
+DrawRoutine.draw_shape	draw_routine.js	/^DrawRoutine.draw_shape = function() {$/;"	f
+DrawRoutine.draw_value	draw_routine.js	/^DrawRoutine.draw_value = function (x,y, caption, value)$/;"	f
+DrawRoutine.draw_value.offset.x	draw_routine.js	/^	var offset = {x:x, y:y+30};$/;"	p
+DrawRoutine.draw_value.offset.y	draw_routine.js	/^	var offset = {x:x, y:y+30};$/;"	p
+DrawRoutine.tile_offset	draw_routine.js	/^	tile_offset: {x:140, y:40},$/;"	p
+GameState.check_game_over	game_state.js	/^GameState.check_game_over = function () {$/;"	f
+GameState.get_interval	game_state.js	/^GameState.get_interval = function () {$/;"	f
+GameState.get_next_shape	game_state.js	/^GameState.get_next_shape = function ()$/;"	c
+GameState.increase_score	game_state.js	/^GameState.increase_score = function (lines) {$/;"	c
+GameState.init	game_state.js	/^GameState.init = function () {$/;"	c
+GameState.pos	game_state.js	/^	pos: {x:0, y:0},$/;"	p
+GameState.pos.x	tetris.js	/^	GameState.pos = {x:x, y:y};$/;"	p
+GameState.pos.y	tetris.js	/^	GameState.pos = {x:x, y:y};$/;"	p
+GameState.reset_map	game_state.js	/^GameState.reset_map = function()$/;"	c
+GameState.reset_score	game_state.js	/^GameState.reset_score = function ()$/;"	c
+GameState.reset_shape	game_state.js	/^GameState.reset_shape = function ()$/;"	c
+GameState.shape.id	tetris.js	/^	GameState.shape = {id:sid, ori:sori};$/;"	p
+GameState.shape.ori	tetris.js	/^	GameState.shape = {id:sid, ori:sori};$/;"	p
+GameState.solidify	game_state.js	/^GameState.solidify = function () {$/;"	c
+GameState.transverse_map	game_state.js	/^GameState.transverse_map = function (fn, afn, range) {$/;"	f
+GameState.transverse_shape_location	game_state.js	/^GameState.transverse_shape_location = function(fn, afn) {$/;"	f
+GameTimer	game_timer.js	/^function GameTimer (routine, interval)$/;"	c
+GameTimer.start	game_timer.js	/^	this.start = function() {$/;"	m
+GameTimer.stop	game_timer.js	/^	this.stop = function () {$/;"	m
+Input.get_state	input.js	/^Input.get_state = function (identifier) {$/;"	f
+Input.handle_Down_down	tetris.js	/^	Input.handle_Down_down = function () {	$/;"	f
+Input.handle_Enter_down	tetris.js	/^	Input.handle_Enter_down = function () {$/;"	f
+Input.handle_Left_down	tetris.js	/^	Input.handle_Left_down = function () {$/;"	f
+Input.handle_Right_down	tetris.js	/^	Input.handle_Right_down = function () {	$/;"	f
+Input.handle_Up_down	tetris.js	/^	Input.handle_Up_down = function () {$/;"	f
+Input.handle_keydown	input.js	/^Input.handle_keydown = function (e) {$/;"	f
+Input.handle_keyup	input.js	/^Input.handle_keyup = function (e) {$/;"	f
+Input.init	input.js	/^Input.init = function () {$/;"	f
+Input.state	input.js	/^	state: {},$/;"	p
+Renderer.canvas	renderer.js	/^	canvas: null,$/;"	p
+Renderer.context	renderer.js	/^	context: null,$/;"	p
+Renderer.draw	renderer.js	/^	draw: function() {},$/;"	m
+Renderer.draw	tetris.js	/^	Renderer.draw = function(){};$/;"	f
+Renderer.init	renderer.js	/^Renderer.init = function (canvas_id, width, height)$/;"	f
+Shape.data	shape.js	/^	data: [],$/;"	p
+Shape.get_random_shape_idx	shape.js	/^Shape.get_random_shape_idx = function () {$/;"	f
+Shape.get_shape_data	shape.js	/^Shape.get_shape_data = function(idx, ori) {$/;"	f
+Tetris.block_size	tetris.js	/^	block_size: 20,$/;"	p
+Tetris.height	tetris.js	/^	height: 20,$/;"	p
+Tetris.hidden_height	tetris.js	/^	hidden_height: 4,$/;"	p
+Tetris.line_score	tetris.js	/^	line_score : [400,1000,3000,12000],$/;"	p
+Tetris.width	tetris.js	/^	width: 10,$/;"	p
+do_game_over	tetris.js	/^function do_game_over () {$/;"	f
+game_loop	tetris.js	/^function game_loop ()$/;"	f
+game_loop_timer_id	tetris.js	/^var game_loop_timer_id = 0;$/;"	v
+game_timer	tetris.js	/^var game_timer;$/;"	v
+get_filled_row	tetris.js	/^function get_filled_row ()$/;"	f
+is_position_valid	tetris.js	/^function is_position_valid(x, y, sid, sori) {$/;"	f
+move_shape	tetris.js	/^function move_shape(delta_x, delta_y) {$/;"	f
+remove_filled_row	tetris.js	/^function remove_filled_row (filled_row) $/;"	f
+rotate_shape	tetris.js	/^function rotate_shape () {$/;"	f
+setup_key_handler	tetris.js	/^function setup_key_handler () {$/;"	f
