@@ -11,22 +11,22 @@ Input.get_state = function (identifier) {
 };
 
 Input.handle_keydown = function (e) {
-  Input.state[e.keyIdentifier] = true;
+  Input.state[e.key] = true;
 
-  var cust_handler = "handle_" + e.keyIdentifier + "_down";
+  var key_handler = "handle_" + e.key + "_down";
 
-  if ((cust_handler in Input) && (typeof Input[cust_handler] === "function")) {
-    Input[cust_handler]();
+  if ((key_handler in Input) && (typeof Input[key_handler] === "function")) {
+    Input[key_handler]();
   }
 };
 
 Input.handle_keyup = function (e) {
-  Input.state[e.keyIdentifier] = false;
+  Input.state[e.key] = false;
 
-  var cust_handler = "handle_" + e.keyIdentifier + "_up";
+  var key_handler = "handle_" + e.key + "_up";
 
-  if ((cust_handler in Input) && (typeof Input[cust_handler] === "function")) {
-    Input[cust_handler]();
+  if ((key_handler in Input) && (typeof Input[key_handler] === "function")) {
+    Input[key_handler]();
   }
 };
 

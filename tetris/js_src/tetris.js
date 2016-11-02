@@ -156,28 +156,28 @@ function game_loop() {
 var game_loop_timer_id = 0;
 
 function setup_key_handler() {
-  Input.handle_Left_down = function () {
+  Input.handle_ArrowLeft_down = function () {
     if (GameState.state === "in-game") {
       move_shape(-1, 0);
       Renderer.draw();
     }
   };
 
-  Input.handle_Right_down = function () {
+  Input.handle_ArrowRight_down = function () {
     if (GameState.state === "in-game") {
       move_shape(1, 0);
       Renderer.draw();
     }
   };
 
-  Input.handle_Down_down = function () {
+  Input.handle_ArrowDown_down = function () {
     if (GameState.state === "in-game") {
       move_shape(0, 1);
       Renderer.draw();
     }
   };
 
-  Input.handle_Up_down = function () {
+  Input.handle_ArrowUp_down = function () {
     if (GameState.state === "in-game") {
       rotate_shape();
       Renderer.draw();
